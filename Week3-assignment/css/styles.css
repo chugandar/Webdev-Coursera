@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+}
+div > h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+div section{
+	align-items: center;
+}
+section{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#menu{
+	font-size: 2.7em;
+}
+#chicken{
+	background-color: pink;
+	color: black;
+}
+#beef{
+	background-color: lightblue;
+	color: black;
+}
+#sushi{
+	background-color: crimson;
+}
+.row{
+	margin: auto;
+}
+/*Header*/
+#header-nav > .container{
+	padding-bottom: 12px;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  position: relative;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  float: left;
+  color: #557c3e;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 12px;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
